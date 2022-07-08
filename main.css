@@ -1,0 +1,582 @@
+@font-face {
+  font-family: 'Circe';
+  src: url('src/fonts/Circe-Light.eot');
+  src: local('Circe Light'), local('Circe-Light'),
+    url('src/fonts/Circe-Light.eot?#iefix') format('embedded-opentype'),
+    url('src/fonts/Circe-Light.woff2') format('woff2'),
+    url('src/fonts/Circe-Light.woff') format('woff'),
+    url('src/fonts/Circe-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Circe Extra';
+  src: url('src/fonts/Circe-ExtraBold.eot');
+  src: local('Circe Extra Bold'), local('Circe-ExtraBold'),
+    url('src/fonts/Circe-ExtraBold.eot?#iefix') format('embedded-opentype'),
+    url('src/fonts/Circe-ExtraBold.woff2') format('woff2'),
+    url('src/fonts/Circe-ExtraBold.woff') format('woff'),
+    url('src/fonts/Circe-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Circe';
+  src: url('src/fonts/Circe-Thin.eot');
+  src: local('Circe Thin'), local('Circe-Thin'),
+    url('src/fonts/Circe-Thin.eot?#iefix') format('embedded-opentype'),
+    url('src/fonts/Circe-Thin.woff2') format('woff2'),
+    url('src/fonts/Circe-Thin.woff') format('woff'),
+    url('src/fonts/Circe-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Circe';
+  src: url('src/fonts/Circe-Regular.eot');
+  src: local('Circe'), local('Circe-Regular'),
+    url('src/fonts/Circe-Regular.eot?#iefix') format('embedded-opentype'),
+    url('src/fonts/Circe-Regular.woff2') format('woff2'),
+    url('src/fonts/Circe-Regular.woff') format('woff'),
+    url('src/fonts/Circe-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Circe';
+  src: url('src/fonts/Circe-Bold.eot');
+  src: local('Circe Bold'), local('Circe-Bold'),
+    url('src/fonts/Circe-Bold.eot?#iefix') format('embedded-opentype'),
+    url('src/fonts/Circe-Bold.woff2') format('woff2'),
+    url('src/fonts/Circe-Bold.woff') format('woff'),
+    url('src/fonts/Circe-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('src/fonts/gilroy-bold.eot');
+  /* IE 9 Compatibility Mode */
+  src: url('src/fonts/gilroy-bold.eot?#iefix') format('embedded-opentype'),
+    /* IE < 9 */
+    url('src/fonts/gilroy-bold.woff2') format('woff2'),
+    /* Super Modern Browsers */
+    url('src/fonts/gilroy-bold.woff') format('woff'),
+    /* Firefox >= 3.6, any other modern browser */
+    url('src/fonts/gilroy-bold.ttf') format('truetype'),
+    /* Safari, Android, iOS */
+    url('src/fonts/gilroy-bold.svg#gilroy-bold') format('svg');
+  /* Chrome < 4, Legacy iOS */
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('src/fonts/gilroy-bolditalic.eot');
+  /* IE 9 Compatibility Mode */
+  src: url('src/fonts/gilroy-bolditalic.eot?#iefix') format('embedded-opentype'),
+    /* IE < 9 */
+    url('src/fonts/gilroy-bolditalic.woff2') format('woff2'),
+    /* Super Modern Browsers */
+    url('src/fonts/gilroy-bolditalic.woff') format('woff'),
+    /* Firefox >= 3.6, any other modern browser */
+    url('src/fonts/gilroy-bolditalic.ttf') format('truetype'),
+    /* Safari, Android, iOS */
+    url('src/fonts/gilroy-bolditalic.svg#gilroy-bolditalic') format('svg');
+  /* Chrome < 4, Legacy iOS */
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('src/fonts/gilroy-medium.eot');
+  /* IE 9 Compatibility Mode */
+  src: url('src/fonts/gilroy-medium.eot?#iefix') format('embedded-opentype'),
+    /* IE < 9 */
+    url('src/fonts/gilroy-medium.woff2') format('woff2'),
+    /* Super Modern Browsers */
+    url('src/fonts/gilroy-medium.woff') format('woff'),
+    /* Firefox >= 3.6, any other modern browser */
+    url('src/fonts/gilroy-medium.ttf') format('truetype'),
+    /* Safari, Android, iOS */
+    url('src/fonts/gilroy-medium.svg#gilroy-medium') format('svg');
+  /* Chrome < 4, Legacy iOS */
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('src/fonts/gilroy-mediumitalic.eot');
+  /* IE 9 Compatibility Mode */
+  src: url('src/fonts/gilroy-mediumitalic.eot?#iefix') format('embedded-opentype'),
+    /* IE < 9 */
+    url('src/fonts/gilroy-mediumitalic.woff2') format('woff2'),
+    /* Super Modern Browsers */
+    url('src/fonts/gilroy-mediumitalic.woff') format('woff'),
+    /* Firefox >= 3.6, any other modern browser */
+    url('src/fonts/gilroy-mediumitalic.ttf') format('truetype'),
+    /* Safari, Android, iOS */
+    url('src/fonts/gilroy-mediumitalic.svg#gilroy-mediumitalic') format('svg');
+  /* Chrome < 4, Legacy iOS */
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('src/fonts/gilroy-regular.eot');
+  /* IE 9 Compatibility Mode */
+  src: url('src/fonts/gilroy-regular.eot?#iefix') format('embedded-opentype'),
+    /* IE < 9 */
+    url('src/fonts/gilroy-regular.woff2') format('woff2'),
+    /* Super Modern Browsers */
+    url('src/fonts/gilroy-regular.woff') format('woff'),
+    /* Firefox >= 3.6, any other modern browser */
+    url('src/fonts/gilroy-regular.ttf') format('truetype'),
+    /* Safari, Android, iOS */
+    url('src/fonts/gilroy-regular.svg#gilroy-regular') format('svg');
+  /* Chrome < 4, Legacy iOS */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('ssrc/fonts/gilroy-regularitalic.eot');
+  /* IE 9 Compatibility Mode */
+  src: url('ssrc/fonts/gilroy-regularitalic.eot?#iefix') format('embedded-opentype'),
+    /* IE < 9 */
+    url('ssrc/fonts/gilroy-regularitalic.woff2') format('woff2'),
+    /* Super Modern Browsers */
+    url('ssrc/fonts/gilroy-regularitalic.woff') format('woff'),
+    /* Firefox >= 3.6, any other modern browser */
+    url('ssrc/fonts/gilroy-regularitalic.ttf') format('truetype'),
+    /* Safari, Android, iOS */
+    url('ssrc/fonts/gilroy-regularitalic.svg#gilroy-regularitalic') format('svg');
+  /* Chrome < 4, Legacy iOS */
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('src/fonts/gilroy-semibold.eot');
+  /* IE 9 Compatibility Mode */
+  src: url('src/fonts/gilroy-semibold.eot?#iefix') format('embedded-opentype'),
+    /* IE < 9 */
+    url('src/fonts/gilroy-semibold.woff2') format('woff2'),
+    /* Super Modern Browsers */
+    url('src/fonts/gilroy-semibold.woff') format('woff'),
+    /* Firefox >= 3.6, any other modern browser */
+    url('src/fonts/gilroy-semibold.ttf') format('truetype'),
+    /* Safari, Android, iOS */
+    url('src/fonts/gilroy-semibold.svg#gilroy-semibold') format('svg');
+  /* Chrome < 4, Legacy iOS */
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('src/fonts/gilroy-semibolditalic.eot');
+  /* IE 9 Compatibility Mode */
+  src: url('src/fonts/gilroy-semibolditalic.eot?#iefix') format('embedded-opentype'),
+    /* IE < 9 */
+    url('src/fonts/gilroy-semibolditalic.woff2') format('woff2'),
+    /* Super Modern Browsers */
+    url('src/fonts/gilroy-semibolditalic.woff') format('woff'),
+    /* Firefox >= 3.6, any other modern browser */
+    url('src/fonts/gilroy-semibolditalic.ttf') format('truetype'),
+    /* Safari, Android, iOS */
+    url('src/fonts/gilroy-semibolditalic.svg#gilroy-semibolditalic') format('svg');
+  /* Chrome < 4, Legacy iOS */
+  font-weight: 600;
+  font-style: italic;
+}
+
+body {
+  margin: 0;
+}
+
+.jumbotron {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.jumbotron__nav {
+  display: none;
+}
+
+.jumbotron__video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  object-fit: cover;
+  height: 100vh;
+  z-index: -1;
+}
+
+.jumbotron__heading {
+  font-family: 'Gilroy';
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 110%;
+  color: #FFFFFF;
+  margin-top: 30vh;
+}
+
+.jumbotron__text {
+  font-family: 'Gilroy';
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 120%;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.jumbotron__year {
+  font-family: 'Gilroy';
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 120%;
+  color: #FFFFFF;
+  margin-top: auto;
+}
+
+.section-number {
+  position: absolute;
+  font-family: 'Gilroy';
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 110%;
+  width: 45px;
+  height: 45px;
+  left: -60px;
+  top: -35px;
+  border-radius: 0px 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-number::before {
+  position: absolute;
+  content: "";
+  height: 1px;
+  width: calc(21vw - 60px);
+  right: 45px;
+}
+
+.section-heading {
+  font-family: 'Gilroy';
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 110%;
+  color: #151515;
+}
+
+.about-client {
+  position: relative;
+  margin-left: 21vw;
+  margin-top: 74px;
+  margin-right: 3.5vw;
+}
+
+.about-client__section-number {
+  color: #151515;
+  background: #FFE106;
+}
+
+.about-client__section-number::before {
+  background: #FFE106;
+}
+
+.about-client__heading {
+  margin-bottom: 8px;
+}
+
+.about-client__text {
+  font-family: 'Gilroy';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #212121;
+  margin-bottom: 55px;
+}
+
+.tasks {
+  position: relative;
+  margin-left: 21vw;
+  margin-top: 74px;
+  margin-right: 3.5vw;
+}
+
+.tasks__section-number {
+  color: #FFFFFF;
+  background: #00A7FF;
+}
+
+.tasks__section-number::before {
+  background: #00A7FF;
+}
+
+.tasks__list {
+  font-family: 'Gilroy';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 120%;
+  color: #212121;
+  padding-left: 0%;
+  list-style-position: inside;
+}
+
+.tasks__list__item {
+  margin-bottom: 14px;
+}
+
+.what-for {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 105px;
+}
+
+.what-for__heading {
+  margin-left: 21vw;
+  width: 100%;
+}
+
+.what-for__item {
+  box-sizing: border-box;
+  width: 349px;
+  height: 310px;
+  height: fit-content;
+  border: 1px solid #FFE106;
+  border-radius: 0px 20px;
+  margin-bottom: 22px;
+  padding: 20px 20px 45px;
+  display: flex;
+  flex-direction: column;
+}
+
+.what-for__item__img {
+  margin: 0 auto;
+}
+
+.what-for__item__heading {
+  font-family: 'Gilroy';
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 110%;
+  color: #151515;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.what-for__item__text {
+  font-family: 'Circe';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #212121;
+  margin: 0;
+}
+
+.features {
+  box-sizing: border-box;
+  position: relative;
+  padding-left: 21vw;
+  padding-top: 65px;
+  padding-right: 3.5vw;
+  padding-bottom: 133.33vw;
+  background: #F2F2F2;
+  background-image: url(src/img/features_bgi.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100vw;
+}
+
+.features__section-number {
+  color: #151515;
+  background: #FFE106;
+  left: calc(21vw - 60px);
+  top: 50px;
+}
+
+.features__section-number::before {
+  background: #FFE106;
+}
+
+.features__text {
+  font-family: 'Gilroy';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #212121;
+}
+
+.stages {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 93vw;
+  margin: 0 auto 87px;
+}
+
+.stages__heading {
+  grid-column: 1/3;
+  justify-self: center;
+}
+
+.stages__item__number {
+  font-family: 'Gilroy';
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 110%;
+  color: #00A7FF;
+}
+
+.stages__item__text {
+  font-family: 'Circe';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #212121;
+}
+
+.ux {
+  position: relative;
+  margin: 0 2vw;
+}
+
+.ux__heading {
+  margin-left: 21vw;
+}
+
+.ux__section-number {
+  left: calc(19vw - 60px);;
+}
+
+.ux__section-number {
+  color: #FFFFFF;
+  background: #00A7FF;
+}
+
+.ux__section-number::before {
+  background: #00A7FF;
+}
+
+.ux__item {
+  background: #FFFFFF;
+  border: 1px solid #00A7FF;
+  border-radius: 5px;
+  display: flex;
+  width: 349px;
+  margin: 15px auto;
+  gap: 25px;
+  padding: 25px 20px;
+  box-sizing:border-box
+}
+
+.ux__item__img {
+  width: 50px;
+  height: 50px;
+}
+
+.ux__item__text {
+  font-family: 'Circe';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 120%;
+  color: #212121;
+  margin-top: 0;
+}
+
+.design {
+  position: relative;
+}
+
+.design__heading {
+  margin-left: 21vw;
+}
+
+.design__section-number {
+  margin-left: 21vw;
+}
+
+.design__section-number {
+  color: #151515;
+  background: #FFE106;
+}
+
+.design__section-number::before {
+  background: #FFE106;
+}
+
+.results {
+  position: relative;
+  background: #FFE106;
+}
+
+.results__heading {
+  margin-left: 21vw;
+}
+
+.results__section-number {
+  margin-left: 21vw;
+}
+
+.results__item {
+  margin: 30px auto;
+  width: 309px;
+  height: 250px;
+  background: #FFFFFF;
+  box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 0px 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: center;
+  padding: 13px;
+}
+
+.results__item__img {
+  width: auto; 
+  height: 65px;
+}
+
+.results__item__text {
+  font-family: 'Gilroy';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 120%;
+  text-align: center;
+  color: #212121;
+}
+
+.results__button {
+  width: 309px;
+  height: 60px;
+  background: #00A7FF;
+}

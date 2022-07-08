@@ -1,0 +1,16 @@
+.jumbotron {
+
+}
+
+.jumbotron_heading {
+    font-size: 72px;
+  }
+  
+  .jumbotron_text {
+    font-size: 26px;
+    max-width: 940px;
+  }
+  
+  .jumbotron_year {
+    font-size: 18px;
+  }
