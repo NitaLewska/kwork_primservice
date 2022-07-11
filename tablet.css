@@ -1,11 +1,34 @@
-.jumbotron_heading {
+.jumbotron__heading {
     font-size: 54px;
   }
   
-  .jumbotron_text {
+  .jumbotron__text {
     font-size: 26px;
+    max-width: 85vw;
   }
   
-  .jumbotron_year {
+  .jumbotron__year {
     font-size: 18px;
   } 
+
+  .client-images{
+    grid-template-columns: 1fr 1fr 2fr;
+  }
+  
+  .client-images__img{
+    width: 100%;  
+  }
+  
+  .client-images__img__big{
+    grid-column: 3/4;
+    grid-row: 1/3;
+    height: 100%;
+  }
+
+  .ux__item {
+    width: 80vw;
+  }
+
+  .video-result__video{
+    margin-top: 144px;
+}
