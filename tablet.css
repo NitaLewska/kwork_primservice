@@ -1,34 +1,50 @@
-.jumbotron__heading {
-    font-size: 54px;
-  }
-  
-  .jumbotron__text {
-    font-size: 26px;
-    max-width: 85vw;
-  }
-  
-  .jumbotron__year {
-    font-size: 18px;
-  } 
+ .jumbotron__text {
+   max-width: 85vw;
+ }
 
-  .client-images{
-    grid-template-columns: 1fr 1fr 2fr;
-  }
-  
-  .client-images__img{
-    width: 100%;  
-  }
-  
-  .client-images__img__big{
-    grid-column: 3/4;
-    grid-row: 1/3;
-    height: 100%;
-  }
 
-  .ux__item {
-    width: 80vw;
-  }
+ .client-images {
+   grid-template-columns: 1fr 1fr 2fr;
+ }
 
-  .video-result__video{
-    margin-top: 144px;
+ .client-images__img {
+   width: 100%;
+ }
+
+ .client-images__img__big {
+   grid-column: 3/4;
+   grid-row: 1/3;
+   height: 100%;
+ }
+
+ .ux__item {
+   width: 80vw;
+ }
+
+ .video-result__video {
+   margin-top: 144px;
+ }
+
+ .visuals__item{
+  width: 40vw;
+  margin: 10vw 0;
+ }
+
+/* .adaptive {
+  padding-left: 50px;
+  width: calc(100vw - 100px);
+  height: 360px;
+  margin-left: 100px;
 }
+
+ .adaptive__text {
+  width: 267px;
+ }
+
+ .adaptive__img {
+  position: absolute;
+  right: 25px;
+  bottom:-70px;
+  height: 100%;
+} */
+
